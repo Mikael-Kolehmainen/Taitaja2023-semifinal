@@ -1,0 +1,36 @@
+header {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+}
+header .row {
+    display: flex;
+}
+header .row .col {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+header .row ul {
+    list-style: none;
+}
+header .row ul li {
+    width: fit-content;
+    height: fit-content;
+}
+header .row .col:nth-child(2),
+header .row .col:nth-child(3) {
+    margin-left: auto;
+}
+header .hamburger {
+    font-size: 22px;
+    padding: 6px 12px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+header .dropdown {
+    position: absolute;
+    top: 10%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+}

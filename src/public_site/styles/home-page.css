@@ -1,0 +1,22 @@
+section {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 100px;
+}
+section .row .col:nth-child(1) {
+    width: 45%;
+}
+section .row .col:nth-child(2) {
+    width: 55%;
+}
+section img {
+    width: 100%;
+    -webkit-backface-visibility: hidden;
+    -ms-transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    filter: blur(0);
+    -webkit-filter: blur(0);
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+}

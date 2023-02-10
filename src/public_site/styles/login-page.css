@@ -1,0 +1,8 @@
+#login-page {
+    background: url("/src/public_site/media/login_bg.jpg") no-repeat center;
+    padding-bottom: 75px;
+}
+#login-page section {
+    margin-top: 0;
+    padding-top: 100px;
+}

@@ -1,0 +1,69 @@
+@media only screen and (max-width: 400px) {
+    header {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    section {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .row {
+        display: block;
+    }
+    section .row .col:nth-child(1) {
+        width: 100%;
+    }
+    section .row .col:nth-child(2) {
+        width: 100%;
+    }
+    .hero {
+        font-size: 30px;
+    }
+    .hero-subtitle {
+        font-size: 14px;
+    }
+    .primary {
+        display: block;
+    }
+    #login-page .box {
+        width: 60%;
+    }
+    #btn-over-image {
+        display: none;
+    }
+    #btn-below-image {
+        display: block;
+    }
+    #desktop-login-btn {
+        display: none;
+    }
+    #hamburger-menu {
+        display: inline-block;
+    }
+    #table-desktop-version {
+        display: none;
+    }
+    #table-mobile-version {
+        display: table;
+    }
+}
+@media only screen and (min-width: 400px) {
+    #btn-over-image {
+        display: block;
+    }
+    #btn-below-image {
+        display: none;
+    }
+    #desktop-login-btn {
+        display: inline-block;
+    }
+    #header-dropdown-btn{
+        display: none;
+    }
+    #table-desktop-version {
+        display: table;
+    }
+    #table-mobile-version {
+        display: none;
+    }
+}
